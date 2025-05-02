@@ -3,10 +3,10 @@ var conn, chat, chatwindow, onlineplayers, chatname;
 
 
 function player(name) {
-	this.x = 50;
-	this.y = 50;
-	this.rotation = 0;
-	this.name = name;
+	this.x = 5000;
+	this.y = 5000;
+	this.rotation = 100000;
+	this.name = name;qwertyuiop911
 }
 
 //game related vars
@@ -18,8 +18,8 @@ var tileList = {},
 	projectileList = {},
 	projentList = {},
 	//stores crafty entity information
-	W = 800,
-	H = 600,
+	W = 10000,
+	H = 10000,
 	mapx = 0,
 	mapy = 0,
 	HW = W / 2,
